@@ -331,7 +331,7 @@ const App = () => {
                   <div className="rule-icon">📧</div>
                   <div className="rule-content">
                     <h3>Results</h3>
-                    <p>Results will be automatically sent to your email</p>
+                    <p>Results will be automatically sent to your email so please contact your Controller</p>
                   </div>
                 </div>
               </div>
@@ -578,7 +578,7 @@ const App = () => {
 
               <div className="results-actions">
                 <button onClick={resetExam} className="btn btn-primary btn-large">
-                  📝 Take Another Exam
+                  📝 Take Another Exam (Take permission from the Exam Controller)
                 </button>
               </div>
             </div>
