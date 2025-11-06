@@ -41,7 +41,7 @@ const App = () => {
     }
   };
 
-  // Safe exit full screen
+  
   const exitFullScreen = async () => {
     try {
       if (document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
@@ -303,7 +303,7 @@ const App = () => {
                   <div className="rule-icon">⏱️</div>
                   <div className="rule-content">
                     <h3>Time Limit</h3>
-                    <p>You have 30 minutes to complete the exam</p>
+                    <p>You have 1 Hour to complete the exam</p>
                   </div>
                 </div>
                 <div className="rule-item">
